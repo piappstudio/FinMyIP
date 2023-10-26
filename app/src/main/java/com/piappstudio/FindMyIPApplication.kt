@@ -1,4 +1,4 @@
-package com.piappstudio.finmyip
+package com.piappstudio
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

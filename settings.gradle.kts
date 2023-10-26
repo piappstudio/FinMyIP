@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FinMyIP"
+include(":findiplibrary")
 include(":app")
- 
