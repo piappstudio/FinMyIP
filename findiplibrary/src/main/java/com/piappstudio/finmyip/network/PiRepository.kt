@@ -12,7 +12,7 @@ class PiRepository @Inject constructor(private val iPApiConfig: iPApiConfig) {
         if (result.isSuccessful) {
             emit(Resource.success(result.body()))
         }else {
-            emit(Resource.error(error = PIError(code=0, message = "Something went wring")))
+            emit(Resource.error(error = PIError(code=result.code(), message = "Something went wring")))
         }
     }
 }
